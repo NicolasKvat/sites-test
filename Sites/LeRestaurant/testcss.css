@@ -1,0 +1,60 @@
+.mosaic{
+    height: 500px;
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column wrap;
+}
+
+.mosaic img {
+  margin: 5px;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #eeeeee;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.page{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar {
+    width: 20%;
+    background-color: #bdc5ff;
+    order: 1;
+}
+
+.sidebar-secondary {
+        order: 3;
+}
+
+.body{
+    width: 60%;
+    background-color: #ffcabc;
+    order: 2;
+}
+
+.footer {
+    width: 100%;
+    height: 60px;
+    background-color: #eee;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    order: 4;
+}
+
+
+
+
+
+body {
+    margin: 0;
+}
